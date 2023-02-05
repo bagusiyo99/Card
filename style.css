@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* card */
+
+.atur {
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-jurusan {
+    width: 280px;
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px #1F8A70;
+    margin: 15px;
+    transition: all 0.3s;
+}
+
+.card-gambar {
+    width: 100%;
+    height: 250px;
+}
+
+.card-gambar img {
+    width: 100%;
+    max-width: 100%;
+    height: 250px;
+    object-fit: cover;
+
+    border-radius: 15px 15px 0 0;
+    transition: all 0.3s;
+}
+
+.card-deskripsi {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 0 0 15px 15px;
+    padding: 25px;
+}
+
+.card-deskripsi h3 {
+    color: #222222;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.card-deskripsi p {
+    color: #243763;
+    font-size: 15px;
+    margin-bottom: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-deskripsi a {
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #243763;
+    font-size: 12px;
+    padding: 6px;
+    border-radius: 3px;
+}
+
+.card-deskripsi a:hover {
+    background-color: #227C70;
+}
+
+.card-jurusan:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 30px -5px #227C70
+}
+
+.card-gambar img:hover {
+    opacity: 0.8;
+}
